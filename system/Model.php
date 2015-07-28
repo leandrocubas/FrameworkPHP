@@ -5,11 +5,11 @@
 */
 class Model {
 	protected  $conexao;
-	private $dsn = 'mysql:dbname=ouvidoria;host=localhost';
+	private $dsn = 'mysql:dbname=nomedobanco;host=localhost';
 	private $user = 'root';
 	private $password = '';
 	private $host = '127.0.0.1';
-	private $dbname = 'ouvidoria';
+	private $dbname = 'nomedobanco';
 	public $tabela;
 	
 
